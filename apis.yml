@@ -1,7 +1,19 @@
 aid: inscinstech
-name: inscinstech
-description: inscinstech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Inscinstech
+description: >-
+  Inscinstech (Suzhou Inscinstech Intelligent Technology Co., Ltd.) is a Chinese
+  life-sciences instrumentation manufacturer serving the biopharmaceutical
+  industry. It designs and builds equipment for oligonucleotide and nucleic-acid
+  synthesis, chromatography and protein purification, tangential-flow filtration,
+  bioreactors and cell culture, nanomedicine (LNP) preparation, high-pressure
+  preparative liquid chromatography, peptide synthesis, and analytical
+  instruments (HPLC, capillary electrophoresis, pumps and valves), spanning
+  laboratory, pilot, and production scale. It also delivers end-to-end process
+  solutions for oligonucleotide drugs, mRNA, peptides, and recombinant proteins.
+  The company is backed by Qiming Venture Partners. It is a hardware and
+  instruments provider and publishes no public developer API surface at this
+  time; this profile is maintained in the API Evangelist network as a company
+  record.
 url: https://raw.githubusercontent.com/api-evangelist/inscinstech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,40 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Enriched 2026-07-19: real identity confirmed as a biotech lab-instruments
+  manufacturer. Apex host https://inscinstech.com.cn HTTPS (443) times out and
+  serves only a default phpStudy placeholder over HTTP; the working canonical
+  site is https://www.inscinstech.com.cn. No API, OpenAPI, SDK, MCP, well-known,
+  or event surface exists, so spec/artifact recipes are not applicable (N/A, not
+  penalized).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://omo-oss-image.thefastimg.com/portal-saas/new2023081419555952175/cms/image/6dbb01d8-c8a1-4e86-8300-33af043d7ec1.png
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Laboratory Instruments
+- Bioprocessing
+- Chromatography
+- Nucleic Acid Synthesis
+- Peptide Synthesis
+- mRNA
+- Analytical Instruments
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +62,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inscinstech-domain-security.yml
 - type: Website
-  url: https://inscinstech.com.cn
+  url: https://www.inscinstech.com.cn
+- type: Blog
+  url: https://www.inscinstech.com.cn/news/1.html
+- type: Support
+  url: https://www.inscinstech.com.cn/contact.html
+- type: Downloads
+  url: https://www.inscinstech.com.cn/download.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,4 +1,4 @@
-# inscinstech
+# Inscinstech
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-inscinstech is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Inscinstech (Suzhou Inscinstech Intelligent Technology Co., Ltd.) is a Chinese life-sciences instrumentation manufacturer serving the biopharmaceutical industry. It designs and builds equipment for oligonucleotide and nucleic-acid synthesis, chromatography and protein purification, tangential-flow filtration, bioreactors and cell culture, nanomedicine (LNP) preparation, high-pressure preparative liquid chromatography, peptide synthesis, and analytical instruments (HPLC, capillary electrophoresis, pumps and valves), spanning laboratory, pilot, and production scale. It also delivers end-to-end process solutions for oligonucleotide drugs, mRNA, peptides, and recombinant proteins. The company is backed by Qiming Venture Partners. It is a hardware and instruments provider and publishes no public developer API surface at this time; this profile is maintained in the API Evangelist network as a company record.
 
-Backed by: qiming — https://inscinstech.com.cn
+**Areas:** Company · Biotechnology · Life Sciences · Laboratory Instruments · Bioprocessing · Chromatography · Nucleic Acid Synthesis · Peptide Synthesis · mRNA · Analytical Instruments · China
+
+## Inscinstech on APIs.io
+
+Everything profiled for Inscinstech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inscinstech/](https://apis.io/providers/inscinstech/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Inscinstech Domain Security](https://apis.io/security/inscinstech/inscinstech-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.inscinstech.com.cn)
+- [Support](https://www.inscinstech.com.cn/contact.html)
+- [Blog](https://www.inscinstech.com.cn/news/1.html)
+
+## API Evangelist rating
+
+**Kin Score 5.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/inscinstech/](https://apis.io/providers/inscinstech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Inscinstech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inscinstech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
